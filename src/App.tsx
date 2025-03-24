@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import "./global.css";
 import HomePage from "./pages/HomePage/HomePage";
 
@@ -12,26 +12,26 @@ export default function App() {
         <nav>
           <ul>
             <li>
-              <a href="/motivation">Motivation</a>
+              <Link to="/motivation">Motivation</Link>
             </li>
             <li>
-              <a href="/company">Company</a>
+              <Link to="/company">Company</Link>
             </li>
             <li>
-              <a href="https://bsky.app/profile/multiplayerfoundation.org">Blog</a>
+              <a href="mailto:hey@multiplayerfoundation.org">Email</a>
+            </li>
+            <li>
+              <a href="https://bsky.app/profile/multiplayerfoundation.org" target="_blank">Blog</a>
             </li>
           </ul>
         </nav>
       </header>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/company" element={<HomePage />} />
+        <Route path="/motivation" element={<HomePage />} />
       </Routes>
       <footer>
-        <ul>
-          <li>
-            <a href="mailto:hey@multiplayerfoundation.org">Email</a>
-          </li>
-        </ul>
         <p>© 2025 The Multiplayer Foundation</p>
       </footer>
     </>
