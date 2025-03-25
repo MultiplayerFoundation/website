@@ -39,4 +39,14 @@
   margin: 0;
   padding: 0;
   justify-content: center;
+  width: 100%;
+}
+
+#gallery > li {
+  width: 100%;
+  max-width: 300px;
+}
+
+#gallery > li > img {
+  width: 100%;
 }
