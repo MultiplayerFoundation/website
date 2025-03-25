@@ -22,7 +22,7 @@ export default function Header() {
             <Link to="/finances">Finances</Link>
           </li>
           <li>
-            <Link to="/one-pager">One-pager</Link>
+            <a href="/one-pager.pdf">One-pager</a>
           </li>
           <li>
             <a href="mailto:hey@multiplayerfoundation.org">Email</a>
