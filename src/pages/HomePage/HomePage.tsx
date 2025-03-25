@@ -14,7 +14,7 @@ export default function HomePage() {
   return (
     <main>
       <section>
-        <h1>Welcome to the new social world</h1>
+        <h1>No one deserves to be alone</h1>
         <p>The Multiplayer Foundation takes advantage of technology to foster meaningful connections and bring an end to the loneliness epidemic.</p>
         <button onClick={() => location.href = mailtoLink}>Get involved</button>
       </section>
