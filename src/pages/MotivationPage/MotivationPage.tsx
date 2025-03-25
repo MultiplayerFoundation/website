@@ -1,22 +1,20 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
-export default function HomePage() {
+export default function MotivationPage() {
 
   useEffect(() => {
 
-    document.title = "The Multiplayer Foundation"
+    document.title = "The Motivation • The Multiplayer Foundation"
 
   }, []);
-
-  const mailtoLink = "mailto:hey@multiplayerfoundation.org?subject=I'd%20like%20to%20get%20involved!&body=Hi!%0A%0AI'd%20like%20to%20get%20involved%20with%20The%20Multiplayer%20Foundation.%20I%20can%20%3Clist%20skills%3E%20and%20I'm%20interested%20in%20%3Clist%20interests%3E.";
 
   return (
     <main>
       <section>
         <h1>Welcome to the new social world</h1>
         <p>The Multiplayer Foundation takes advantage of technology to foster meaningful connections and bring an end to the loneliness epidemic.</p>
-        <button onClick={() => location.href = mailtoLink}>Get involved</button>
+        <button>Get involved</button>
       </section>
       <section id={"headline"}>
         <p>
@@ -45,7 +43,7 @@ export default function HomePage() {
       </section>
       <section>
         <p>Want to join the mission?</p>
-        <button onClick={() => location.href = mailtoLink}>Get involved</button>
+        <button>Get involved</button>
       </section>
     </main>
   );

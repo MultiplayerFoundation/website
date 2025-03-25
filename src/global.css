@@ -1,0 +1,21 @@
+h1, h2, p, a, button {
+  font-family: "Lexend Deca", Arial;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: rgb(57, 100, 219);
+}
+
+a:hover {
+  border-bottom: 1px solid;
+}
+
+main, footer, header {
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+body {
+  margin: 30px;
+}
