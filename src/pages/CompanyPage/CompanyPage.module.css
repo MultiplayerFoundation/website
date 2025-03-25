@@ -1,0 +1,41 @@
+#main {
+  gap: 30px;
+}
+
+#main, #main > section {
+  display: flex;
+  flex-direction: column;
+}
+
+#main > section {
+  gap: 15px;
+}
+
+.imageContainer {
+  border-radius: 100%;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+}
+
+.imageContainer > img {
+  width: 288%;
+  object-position: -94px -21px;
+}
+
+.person {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.titles h2 {
+  font-size: 18px;
+  font-weight: 300;
+}

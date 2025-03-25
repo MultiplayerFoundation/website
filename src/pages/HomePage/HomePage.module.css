@@ -1,0 +1,42 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.actionCall {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+  background-color: #6fab48;
+  border-radius: 5px;
+  padding: 30px;
+  color: white;
+}
+
+#headline {
+  text-align: center;
+  font-size: 30px;
+}
+
+.value {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.value img {
+  max-width: 300px;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}

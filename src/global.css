@@ -2,8 +2,13 @@ h1, h2, h3, p, a, b, button {
   font-family: "Lexend Deca", Arial;
 }
 
+h1, h2, h3 {
+  margin: 0;
+}
+
 p {
   font-weight: 300;
+  font-size: 18px;
 }
 
 section > h1 {
@@ -12,7 +17,16 @@ section > h1 {
 
 a, a:visited {
   text-decoration: none;
-  color: rgb(57, 100, 219);
+  color: #6fab48;
+}
+
+button {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #aefa9f;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 30px;
+  cursor: pointer;
 }
 
 a:hover {
