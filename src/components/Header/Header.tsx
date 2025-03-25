@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import logo from "./The Multiplayer Foundation logo.png"
 import styles from "./Header.module.css"
+import onePager from "./one-pager.pdf"
 
 export default function Header() {
 
@@ -19,7 +20,7 @@ export default function Header() {
             <Link to="/finances">Finances</Link>
           </li>
           <li>
-            <a href="/one-pager.pdf">One-pager</a>
+            <a href={onePager}>One-pager</a>
           </li>
           <li>
             <a href="mailto:hey@multiplayerfoundation.org">Email</a>

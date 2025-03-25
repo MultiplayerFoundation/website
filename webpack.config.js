@@ -78,7 +78,7 @@ const config = {
         loader: "html-loader",
       },
       {
-        test: /\.(svg|png|jpe?g|gif|jp2|webp)$/,
+        test: /\.(pdf|svg|png|jpe?g|gif|jp2|webp)$/,
         loader: 'file-loader',
         options: {
           name: 'images/[name].[ext]'
