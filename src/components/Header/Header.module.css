@@ -6,6 +6,10 @@
   gap: 15px;
 }
 
+#header > a {
+  text-align: center;
+}
+
 #header > a > img {
   object-fit: contain;
   height: auto;
