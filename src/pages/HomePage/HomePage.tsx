@@ -19,14 +19,14 @@ export default function HomePage() {
 
   }, []);
 
-  const mailtoLink = "mailto:hey@multiplayerfoundation.org?subject=I'd%20like%20to%20get%20involved!&body=Hi!%0A%0AI'd%20like%20to%20get%20involved%20with%20The%20Multiplayer%20Foundation.%20I%20can%20%3Clist%20skills%3E%20and%20I'm%20interested%20in%20%3Clist%20interests%3E.";
+  const navigate = useNavigate();
 
   return (
     <main id={styles.main}>
       <section className={styles.actionCall}>
         <h1>No one deserves to be alone</h1>
         <p>The Multiplayer Foundation takes advantage of technology to foster meaningful connections and bring an end to the loneliness epidemic.</p>
-        <button onClick={() => location.href = mailtoLink}>Get involved</button>
+        <button onClick={() => navigate("/company")}>Learn more</button>
       </section>
       <section id={styles.headline}>
         <img src={alonePhoto} />

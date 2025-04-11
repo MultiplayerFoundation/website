@@ -47,7 +47,8 @@ export default function CompanyPage() {
         </section>
         <section>
           <h2>Q. Who are you targeting?</h2>
-          <p>Our services will be for the 80+ million adults suffering from social isolation, but we're particularly targeting young adults (Gen Z) because they are the <a href="https://www.usatoday.com/story/opinion/2018/05/03/gen-z-loneliest-generation-social-media-personal-interactions-column/574701002/" target="_blank">loneliest generation</a>.</p>
+          <p>We are focused on young adults (Gen Z) because they are the <a href="https://www.usatoday.com/story/opinion/2018/05/03/gen-z-loneliest-generation-social-media-personal-interactions-column/574701002/" target="_blank">loneliest generation</a>.</p>
+          <p>Despite our scope, our apps and games can be used by the other 80+ million adults suffering from social isolation.</p>
         </section>
         <section>
           <h2>Q. How do you make money?</h2>
