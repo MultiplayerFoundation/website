@@ -24,8 +24,8 @@ export default function HomePage() {
   return (
     <main id={styles.main}>
       <section className={styles.actionCall}>
-        <h1>No one deserves to be alone</h1>
-        <p>The Multiplayer Foundation takes advantage of technology to foster meaningful connections and bring an end to the loneliness epidemic.</p>
+        <h1>We make games, you make connections.</h1>
+        <p>The Multiplayer Foundation takes advantage of video games to foster meaningful connections and bring an end to the loneliness epidemic.</p>
         <button onClick={() => navigate("/company")}>Learn more</button>
       </section>
       <section id={styles.headline}>
@@ -55,6 +55,12 @@ export default function HomePage() {
           <p>Outside of application expenses, we use our revenue to create and sponsor mental health initiatives. For example, we plan to partner with licensed professionals to offer affordable counseling sessions.</p>
         </section>
       </section>
+      <section className={styles.actionCall}>
+        <h1>Challenge</h1>
+        <p>After we get you addicted to our free games, lock in and support the movement. Get a $5 monthly membership and unlock the rest of our catalog.</p>
+        <p>Real Gs make a commitment to sponsor a membership for someone else. Are you going to wait until the next crisis, are you going to act now?</p>
+        <button onClick={() => navigate("/company")}>Learn more</button>
+      </section>
       <section>
         <h1>Our newest project: Blitz Meet</h1>
         <section>
@@ -78,11 +84,6 @@ export default function HomePage() {
             </li>
           </ul>
         </section>
-      </section>
-      <section className={styles.actionCall}>
-        <h1>Memberships</h1>
-        <p>After we get you addicted to our free games, lock in and support the movement. Get a $5 monthly membership and unlock the rest of our catalog.</p>
-        <p>Real Gs make a commitment to helping somebody else.</p>
       </section>
     </main>
   );
