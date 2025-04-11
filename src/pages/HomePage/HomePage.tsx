@@ -9,6 +9,7 @@ import demo2Photo from "./demo2.png"
 import demo3Photo from "./demo3.png"
 import demo4Photo from "./demo4.png"
 import demo5Photo from "./demo5.png"
+import alonePhoto from "./alone.jpg"
 
 export default function HomePage() {
 
@@ -28,16 +29,17 @@ export default function HomePage() {
         <button onClick={() => location.href = mailtoLink}>Get involved</button>
       </section>
       <section id={styles.headline}>
+        <img src={alonePhoto} />
         <p>
           Social isolation is on the rise. Societal dangers — risks that put everyone in jeopardy — are becoming ever more present. There needs to be an engaged, modern movement that's dedicated to making sure no one feels alone.
         </p>
       </section>
       <section className={styles.value}>
+        <img src={techPhoto} />
         <section>
           <h1>Driving engagement through innovation and technology</h1>
           <p>We use technology to connect people with others that will leave a positive impact on their lives — online <i>and</i> offline.</p>
         </section>
-        <img src={techPhoto} />
       </section>
       <section className={styles.value}>
         <section>
@@ -47,11 +49,11 @@ export default function HomePage() {
         <img src={mentorPhoto} />
       </section>
       <section className={styles.value}>
+        <img src={groupPhoto} />
         <section>
           <h1>Supporting a great mental health</h1>
           <p>Outside of application expenses, we use our revenue to create and sponsor mental health initiatives. For example, we plan to partner with licensed professionals to offer affordable counseling sessions.</p>
         </section>
-        <img src={groupPhoto} />
       </section>
       <section>
         <h1>Our newest project: Blitz Meet</h1>

@@ -22,10 +22,16 @@
   font-size: 30px;
 }
 
+#headline > img {
+  max-width: 500px;
+  width: 100%;
+}
+
 .value {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  gap: 25px;
+  flex-direction: column;
 }
 
 .value img {
@@ -49,4 +55,12 @@
 
 #gallery > li > img {
   width: 100%;
+}
+
+@media screen and (min-width: 820px) {
+  
+  .value {
+    flex-direction: row;
+  }
+
 }
