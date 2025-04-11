@@ -9,6 +9,7 @@ h1, h2, h3 {
 p {
   font-weight: 300;
   font-size: 18px;
+  margin: 0;
 }
 
 section > h1 {
@@ -40,4 +41,8 @@ main, footer, header {
 
 body {
   margin: 30px;
+}
+
+footer {
+  margin-top: 15px;
 }

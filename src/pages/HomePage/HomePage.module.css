@@ -20,6 +20,10 @@
 #headline {
   text-align: center;
   font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
 }
 
 #headline > img {
@@ -32,6 +36,12 @@
   align-items: center;
   gap: 25px;
   flex-direction: column;
+}
+
+.value > section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .value img {

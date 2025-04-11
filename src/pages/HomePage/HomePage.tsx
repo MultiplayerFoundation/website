@@ -80,8 +80,9 @@ export default function HomePage() {
         </section>
       </section>
       <section className={styles.actionCall}>
-        <p>Want to join the mission?</p>
-        <button onClick={() => location.href = mailtoLink}>Get involved</button>
+        <h1>Memberships</h1>
+        <p>After we get you addicted to our free games, lock in and support the movement. Get a $5 monthly membership and unlock the rest of our catalog.</p>
+        <p>Real Gs make a commitment to helping somebody else.</p>
       </section>
     </main>
   );
