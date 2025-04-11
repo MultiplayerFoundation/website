@@ -41,12 +41,12 @@ export default function HomePage() {
           <p>We use technology to connect people with others that will leave a positive impact on their lives — online <i>and</i> offline.</p>
         </section>
       </section>
-      <section className={styles.value}>
+      <section className={styles.value} id={styles.second}>
+        <img src={mentorPhoto} />
         <section>
           <h1>Advocating for social environment</h1>
           <p>We advocate for policies and programs that promote community connection and address social isolation.</p>
         </section>
-        <img src={mentorPhoto} />
       </section>
       <section className={styles.value}>
         <img src={groupPhoto} />
